@@ -33,7 +33,7 @@ React 19, TypeScript ~5.8, Vite 7, Tailwind CSS 4 (`@tailwindcss/vite`), React R
 - Follow the existing code style; do not add dependencies without approval.
 
 ## Deployment
-Vercel. `vercel.json` rewrites all routes to `/index.html` (SPA). Deploying requires approval.
+Vercel. `vercel.json` rewrites all routes to `/index.html` (SPA). Production URL: https://barberbook-omega-nine.vercel.app. Deploy only when the owner explicitly asks; that request counts as approval (`vercel deploy --prod`).
 
 ## Repository
 Own Git repo, remote `origin` on GitHub. No `.env` files exist; there are no secrets to handle at present. Never commit credentials if a backend is added.
